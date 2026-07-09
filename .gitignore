@@ -1,16 +1,15 @@
-
 # Dependencies
 node_modules/
 
 # Environment variables
 .env
 
-# Uploaded files
+# Uploads
 src/uploads/
 
 # Logs
 *.log
 
 # OS files
-.DS_Store
 Thumbs.db
+.DS_Store
