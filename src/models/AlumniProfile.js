@@ -43,7 +43,7 @@ module.exports = (sequelize) => {
       },
       employment_status: {
         type: DataTypes.ENUM("employed", "unemployed"),
-        allowNull: false,
+        allowNull: true,
       },
       employment_form: {
         type: DataTypes.ENUM("private", "government", "freelancer"),
